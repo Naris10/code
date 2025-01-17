@@ -1,0 +1,272 @@
+﻿body {
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(4 77 143);
+}
+
+.btn-link-manual {
+    border-radius: 30px;
+}
+
+.application-type{
+    display: flex;
+}
+
+#PictureIcon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+#NameProject {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+.project-type-icon {
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.text-items-no {
+    font-weight: 600;
+}
+.start-hover:hover{
+    color:orangered;
+}
+
+#Picture_01 {
+    width: 700px;
+}
+
+#Picture_02, #Picture_03, #Picture_04 {
+    width: 250px;
+}
+.star {
+    padding: 0px 10px 0px 10px !important;
+    --bs-btn-border-width:none;
+}
+.start-feed-pro{
+
+}
+
+/*=======================CardComment============================*/
+
+.comments-container, .reply-container {
+    max-width: 90%;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.reply-container {
+    margin-left: 30% !important;
+}
+.comment {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #eee;
+
+}
+
+    .comment:last-child {
+        border-bottom: none;
+    }
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-right: 10px;
+}
+
+.commenter-info {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+.time {
+    font-size: 14px;
+    color: #0a58ca;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.comment-body {
+    font-size: 14px;
+    color: #333;
+    margin: 10px;
+}
+
+.comment-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like-reply {
+    display: flex;
+    align-items: center;
+}
+
+    .like-reply i {
+        color: gray;
+        margin-right: 5px;
+    }
+
+    .like-reply span {
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    .heart:active {
+        cursor : pointer;
+        color : red;
+    }
+
+
+.view-more {
+    text-align: center;
+    margin-top: 15px;
+}
+
+    .view-more a {
+        text-decoration: none;
+        font-size: 14px;
+        color: #007bff;
+    }
+
+        .view-more a:hover {
+            text-decoration: underline;
+        }
+
+/*======================background============*/
+
+.cm-grad {
+    background-image: linear-gradient(to right, #ffffff 0%, #ffffff 51%, #ECE9E6 100%);
+}
+
+.cm-grad {
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 3px 3px 3px 3px #b1b1af;
+}
+
+
+.cm-grad-reply {
+    background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF 51%, #ECE9E6 100%)
+}
+
+.count-link, .count-reply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.heart{
+    font-size: 20px;
+
+}
+heart:focus {
+    outline: none;
+    border: none; 
+}
+.reply-header{
+    display:none;
+}
+
+.reply-area {
+    margin-left: 20%;
+    padding-bottom: 40px;
+}
+
+.reply-toggle {
+    display: none;
+    text-align: end;
+    width: 95%;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.close-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    padding: 5px;
+}
+/*==============================Modal picture on click==============*/
+.modalpicture {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 90%;
+    max-width: 1500px;
+    height: auto;
+}
+
+    .modal-content:hover {
+        cursor: pointer;
+    }
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.clickable-image{
+    cursor:pointer;
+}
+
+.clickable-image:hover{
+    border:1px solid gray ;
+}
+

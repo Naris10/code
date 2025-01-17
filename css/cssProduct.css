@@ -1,0 +1,76 @@
+﻿body {
+}
+
+.main-topic {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+/*.card-project{
+    display:flex;
+}*/
+.pagination {
+    margin-top: 80px;
+}
+
+.card-img-center {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.project-name {
+    color: #000;
+    text-decoration: none;
+}
+
+.card {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 400px
+}
+
+
+/* สไตล์พื้นฐานของไอคอน */
+.fa-plus-circle {
+    content: "\f055";
+    font-size: 30px;
+    color: black;
+    transition: color 0.3s ease; /* เพิ่มเอฟเฟกต์การเปลี่ยนสี */
+}
+
+    /* เมื่อ hover */
+    .fa-plus-circle:hover {
+        color: rgb(9 112 205);
+    }
+
+
+#CardSection .card .card-body {
+    padding-bottom: 40px;
+    เพิ่มระยะด้านล่างเพื่อรองรับไอคอน
+}
+
+#CardSection .card .btn-project-id {
+    position: absolute; /* ตำแหน่งของไอคอน */
+    bottom: 40px; /* ระยะจากด้านล่าง */
+    left: 40px; /* ระยะจากด้านซ้าย */
+    font-size: 25px; /* ขนาดไอคอน */
+    color: #007bff; /* สีไอคอน */
+    transition: transform 0.3s, color 0.3s; /* เพิ่มเอฟเฟกต์ */
+}
+
+.btn-plus {
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    padding-left: 40px;
+    border: none; /* ขอบสีฟ้าเมื่อคลิก */
+}
+
+.btn-plus:focus, .btn-plus:active {
+    border: none; /* ขอบสีฟ้าเมื่อคลิก */
+}
+

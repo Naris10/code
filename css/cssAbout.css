@@ -1,0 +1,93 @@
+﻿body {
+}
+
+.boxcard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+
+    width: 295px;
+    height: 335px;
+    gap: 0px;
+    border-radius: 10px;
+    margin: 40px;
+    background: #E8E8E8;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0px;
+}
+
+    .card img {
+        width: 260px;
+        height: 225px;
+        border-radius: 10%;
+        max-width: 100%;
+        object-fit: contain;
+        background-color: white;
+    }
+
+
+    .card.expanded {
+
+        width: 700px;
+        height: 335px;
+        transition: all 0.3s ease-in-out;
+        background-color: #fff;
+        border: 3px #bebebe solid;
+    }
+
+
+.image-container {
+    perspective: 1000px;
+}
+
+.flip-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card.expanded .flip-image {
+    transform: rotateY(180deg);
+    height: 360px;
+}
+
+.hidden {
+    display: none;
+}
+
+.card.expanded .hidden {
+    display: block;
+    padding: 20px;
+
+}
+
+.text-details {
+    margin-top: 9px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.text-details2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.hidename{
+    display:none;
+}
+
+.text-details-extra {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+

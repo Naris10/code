@@ -1,0 +1,80 @@
+﻿@media screen and (min-width:992px) {
+    .nav-item {
+        line-height: 80px;
+    }
+}
+
+
+.nav-bg {
+    padding: 0px;
+    background-color: #E1E4EC !important
+}
+
+.btn-user-info {
+    border: solid 2px #000;
+}
+
+.nav-setting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:6px;
+}
+.nav-item .btn-user-info {
+    display: inline-flex;
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: center; /* Aligns items horizontally */
+    gap: 10px; /* Adds space between the icon and the name */
+}
+
+    .nav-item .btn-user-info i {
+        font-size: 16px; /* Adjust icon size if needed */
+    }
+
+    .nav-item .btn-user-info #UserInfo {
+        font-size: 14px; /* Adjust font size of the text if needed */
+        white-space: nowrap; /* Prevents wrapping of text */
+    }
+
+.btn-sign-out {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 50%;
+    padding: 0px 20px 0px 20px;
+    margin-left: 20px;
+    height: 40px;
+    margin-right: 20px;
+    width: 40px;
+}
+
+
+.footercontainer {
+    background-color: #E1E4EC !important
+}
+
+.foot-topic {
+    font-size: 22px;
+    font-weight: 500;
+    padding: 20px 0 20px 0;
+}
+
+.contact-name, .manual-list, .faq {
+    color: #000;
+}
+
+.input-comment {
+    border-top-left-radius: 20px; /* Applies border-radius to the top-left corner */
+    border-bottom-left-radius: 20px; /* Applies border-radius to the bottom-left corner */
+}
+.button-comment {
+    border-top-right-radius: 20px; /* Applies border-radius to the top-left corner */
+    border-bottom-right-radius: 20px;
+}
+#btnMasterComment{
+    z-index:0;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(4 77 143);
+}

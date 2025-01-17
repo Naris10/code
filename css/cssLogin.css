@@ -1,0 +1,37 @@
+﻿body {
+    margin-top: 10%;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: .1rem;
+}
+
+.form-signin input[type="email"] {
+        margin-bottom: 4px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+}
+
+.form-floating > .form-control, .form-floating > .form-control-plaintext {
+    padding: 1rem .75rem;
+}
+
+.form-floating > .form-control, .form-floating > .form-control-plaintext, .form-floating > .form-select {
+    height: calc(3.5rem + calc(var(--bs-border-width)* 2));
+    min-height: calc(3.5rem + calc(var(--bs-border-width)* 2));
+    line-height: 1.25;
+}
+
+.block-data {
+    color: blue;
+  
+    margin-top: 15px;
+}
+
+.area {
+    max-width: 1000px;
+}
+.iot-logo {
+    max-width: 500px;
+}

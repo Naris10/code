@@ -1,0 +1,417 @@
+﻿html,body {
+}
+
+.bg-gray {
+    background-color: #ffffff;
+    background-image: linear-gradient(0deg, #ffffff 0%, #e1e4ec 100%);
+}
+
+.main-page{
+    margin-top:25px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+}
+
+.title {
+    height: 643px;
+    top: 100px;
+    left: 1px;
+    gap: 0px;
+    opacity: 1px;
+}
+
+.carousel-item {
+    height: 643px;
+}
+
+    .carousel-item img {
+        height: 643px;
+        width: 100%;
+        object-fit: contain;
+    }
+
+.bg {
+    height: 80px;
+    top: 743px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(to bottom, #e1e4ec, #ffffff);
+}
+
+/* piemode */
+
+.piemode {
+    height: 643px;
+    top: 100px;
+    left: 1px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+#piemode1 {
+    text-align: left;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56.25px;
+}
+
+#cardoverall {
+    /* width: 600px; */
+    height: auto;
+    top: 961px;
+    left: 85px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+}
+
+#textoverall {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.19px;
+    color: #ffffff;
+}
+
+#ProjectDeployed {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42.19px;
+    color: #ffffff;
+    padding-top: 1rem
+}
+
+.categoryratio {
+    height: 450px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#textcategoryratio {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: center;
+    padding-top: 2rem;
+    justify-content: center;
+    width: 595px;
+}
+
+
+
+#cardtotal {
+    /* width: 600px; */
+    /* height: auto; */
+    top: 961px;
+    left: 755px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color: #E1E4EC;
+    justify-content: center;
+    align-items: center; /* จัดองค์ประกอบให้อยู่กึ่งกลางในแนวนอน */
+    padding: 20px;
+}
+
+
+
+
+#MinPerYesr {
+    font-weight: 500; 
+    font-size: 36px;
+    line-height: 63.28px;
+}
+
+
+#projectstatus {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    padding-top: 2rem;
+    width: 595px;
+}
+
+.yearlyproject {
+    width: 600px;
+    height: 352px;
+    justify-content: center;
+    align-items: center;
+    left: 755px;
+}
+
+/* Newfeed */
+
+#bodycardnewfeed {
+    background-color: #e1e4ec;
+    /* width: 830px; */
+    height: auto;
+    top: 1932px;
+    left: 75px;
+    border-radius: 30px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#textnewfeed {
+    align-self: flex-start;
+    padding-left: 2.3rem;
+    font-style: roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+    padding-top: 2rem;
+}
+
+#detailnewfeed {
+    border-radius: 30px;
+    height: auto;
+    /* width: 776px; */
+    padding: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#txt003 {
+    font-style: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin: 1rem;
+}
+
+#txt004 {
+    font-style: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    padding-left: 2rcap;
+}
+
+#cardvisitors {
+    background-color: #21D4FD;
+    background-image: linear-gradient(156deg, #21D4FD 0%, #B721FF 100%);
+    border-radius: 10px !important;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0970CD;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    height: 30%;
+    color: #ffffff;
+}
+
+.member-desc {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+
+.department-desc {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.carddescription {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#txt006 {
+    align-self: left;
+    padding-left: 2.3rem;
+    font-style: roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+}
+
+
+#txt007 {
+    font-style: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+/* ส่วนสมาชิก */
+
+#member {
+    font-style: roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.5px;
+    text-align: left;
+    padding-top: 4rem;
+}
+
+.picturemenber {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: Hug (1,272px)px;
+    height: Hug (200px)px;
+    top: 3042px;
+    left: 85px;
+    gap: 68px;
+    opacity: 0px;
+}
+
+
+.circular-portrait {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เพิ่ม box-shadow */
+    background-color: #fff;
+}
+
+    .circular-portrait img {
+        display: block;
+        object-fit: cover;
+        background-color: white;
+    }
+
+.picturemenbe2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: Hug (1,272px)px;
+    height: Hug (200px)px;
+    top: 3042px;
+    left: 85px;
+    gap: 68px;
+    opacity: 0px;
+}
+
+.bg2 {
+    height: 30px;
+    top: 743px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(to bottom, #ffffff,#e1e4ec);
+}
+
+
+/* New Feed */
+.news-feed {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .news-feed h2 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+#Newfeed {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+    .card h3 {
+        font-size: 18px;
+        color: #444;
+        margin-bottom: 10px;
+        /* margin-left: 0; */
+        text-align: left;
+    }
+    }
+
+    .card p {
+        font-size: 14px;
+        color: #666;
+        line-height: 1.6;
+    }
+
+
+.chart-area{
+    margin-top:80px;
+}
+
+.feed-area{
+    margin-top : 80px;
+}
+
+.projectdeploy-card {
+    background-color: #21D4FD;
+    background-image: linear-gradient(285deg, #21D4FD 0%, #B721FF 100%);
+    border-radius: 10px !important;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0970CD;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42.19px;
+    color: #ffffff;
+}
+
+.projectreduce-card {
+    background-color: #e1e4ec;
+    background-image: linear-gradient(180deg, #e1e4ec 0%, #b7b7bf 95%);
+    border-radius: 10px !important;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0970CD;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42.19px;
+    color: #000000;
+}
+
+.link-list {
+    text-align: left;
+}
